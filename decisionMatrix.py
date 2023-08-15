@@ -110,189 +110,188 @@ based on the ideal value type (ideal upper, lower, mid, or wildcard value). Each
 
 
 def pay(x):
-    rating = idealU(1, 5, x)
-    # 2 is the weight
-    return rating * 2
+    rating = idealU(33280, 80000, x)
+    return rating * 10
 
 
 def weekend(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealL(0, 1, x)
+    return rating * 10
 
 
 def location(x):
-    rating = idealL(5, 20, x)
-    return rating * 5
+    rating = idealL(5, 30, x)
+    return rating * 10
 
 
 def hours(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealM(20, 40, x)
+    return rating * 9
 
 
 def shift(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(9, 10, x)
+    return rating * 9
 
 
 def hybrid(x):
-    rating = idealM(0, 20, x)
-    return rating * 1
+    rating = idealU(0, 30, x)
+    return rating * 9
 
 
 def travel(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealM(0, 0, x)
+    return rating * 9
 
 
 def negotiation(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(0, 8, x)
+    return rating * 9
 
 
 def osha(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealM(0, 0, x)
+    return rating * 9
 
 
 def reviews(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(6, 10, x)
+    return rating * 9
 
 
 def managmentStyle(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealW(0, 14, 2, x)
+    return rating * 8
 
 
 def workStress(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealW(0, 10, 1, x)
+    return rating * 8
 
 
 def benifits(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(7, 10, x)
+    return rating * 8
 
 
 def retension(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealM(60, 100, x)
+    return rating * 8
 
 
 def educationAndTraining(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(0, 100000, x)
+    return rating * 8
 
 
 def strengthWeakness(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealM(2, 10, x)
+    return rating * 7
 
 
 def pastWork(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(0, 3, x)
+    return rating * 7
 
 
 def advancement(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealW(0, 3, 1, x)
+    return rating * 7
 
 
 def techniqualSkills(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealW(0, 10, 9, x)
+    return rating * 6
 
 
 def vacationTime(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(7, 14, x)
+    return rating * 6
 
 
 def PoliticalAffiliation(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealL(0, 5, x)
+    return rating * 6
 
 
 def PoliticalInvolvement(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealL(0, 5, x)
+    return rating * 6
 
 
 def amentities(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(4, 8, x)
+    return rating * 6
 
 
 def m_e_ratio(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealW(3, 20, 6, x)
+    return rating * 6
 
 
 def softSkills(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(6, 9, x)
+    return rating * 5
 
 
 def flexibleSchedule(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealL(1, 3, x)
+    return rating * 5
 
 
 def CommunityInvolement(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(0, 7, x)
+    return rating * 5
 
 
 def ManegementLevels(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealL(4, 10, x)
+    return rating * 5
 
 
 def groupSize(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealW(1, 10, 5, x)
+    return rating * 4
 
 
 def workspace(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(2, 6, x)
+    return rating * 4
 
 
 def socialOutings(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealM(0, 2, x)
+    return rating * 3
 
 
 def HQLocation(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(4, 9, x)
+    return rating * 3
 
 
 def dress(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealU(1, 4, x)
+    return rating * 3
 
 
 def screenTime(x):
-    rating = idealU(1, 5, x)
+    rating = idealW(2, 8, 4, x)
     return rating * 2
 
 
 def coffee(x):
-    rating = idealU(1, 5, x)
+    rating = idealU(0, 5, x)
     return rating * 2
 
 
 def lunch(x):
-    rating = idealU(1, 5, x)
+    rating = idealU(0, 4, x)
     return rating * 2
 
 
 def coAge(x):
-    rating = idealU(1, 5, x)
-    return rating * 2
+    rating = idealW(3, 300, 40, x)
+    return rating * 1
 
 
 """ The function allFactors is used to determine the overall score for a given job based on each job factor listed in 
@@ -394,21 +393,16 @@ def score(percentMatch):
 
 
 """Below are the only function calls that need to be made for testing the accuracy of our rule-based AI model. """
-perfectJobVal = perfectJob(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
-                           26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37)
+perfectJobVal = allFactors(80000,0,5,30,10,30,0,8,0,10,2,1,10,80,100000,6,3,1,9,14,0,0,8,6,9,3,7,4,5,6,1,9,4,4,5,4,40)
 print("perfect job score: " + str(perfectJobVal))
 
-
-jobScore = allFactors(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
-                      27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 0)
+jobScore = allFactors(30000,6,30,40,8,0,10,0,4,4,0,10,5,32,0,10,0,0,0,3,8,10,2,80,4,0,0,25,40,4,5,0,1,8,0,0,2)
 print("Job score: " + str(jobScore))
 
-
-percentMatch = 0.8
+print("Job percent score: " + str((jobScore/perfectJobVal)*100))
+percentMatch = 0.6
 score(percentMatch)
 
-
-max5min5factors(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
-                      27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 0)
+max5min5factors(30000,6,30,40,8,0,10,0,4,4,0,10,5,32,0,10,0,0,0,3,8,10,2,80,4,0,0,25,40,4,5,0,1,8,0,0,2)
 
 
